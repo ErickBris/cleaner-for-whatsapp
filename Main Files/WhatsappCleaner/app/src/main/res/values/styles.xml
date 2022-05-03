@@ -1,0 +1,96 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="CardsViewLarge" parent="@style/CardsViewLargeBase" />
+    <style name="CardsViewLargeBase">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">120.0dip</item>
+        <item name="android:foreground">?selectableItemBackground</item>
+    </style>
+    <style name="CardsViewImage" parent="@style/CardsViewImageBase" />
+    <style name="CardsViewImageBase">
+        <item name="android:layout_gravity">end|center|top</item>
+        <item name="android:layout_width">32.0dip</item>
+        <item name="android:layout_height">32.0dip</item>
+        <item name="android:layout_marginLeft">16.0dip</item>
+        <item name="android:layout_marginTop">16.0dip</item>
+        <item name="android:layout_marginRight">16.0dip</item>
+    </style>
+    <style name="CardsViewTitleText" parent="@style/CardsViewTitleTextBase" />
+    <style name="CardsViewTitleTextBase">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:layout_gravity">start|center|top</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">16.0dip</item>
+        <item name="android:layout_marginTop">16.0dip</item>
+        <item name="android:layout_marginRight">16.0dip</item>
+    </style>
+    <style name="CardsViewSubTitleTextBase">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:layout_gravity">start|center|top</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">16.0dip</item>
+        <item name="android:layout_marginTop">30.0dip</item>
+        <item name="android:layout_marginRight">16.0dip</item>
+    </style>
+    <style name="CardsViewSubTitleText" parent="@style/CardsViewSubTitleTextBase" />
+    <style name="CardsViewButton" parent="@style/CardsViewButtonBase" />
+    <style name="CardsViewButtonBase">
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">start|bottom|center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">16.0dip</item>
+        <item name="android:layout_marginRight">16.0dip</item>
+        <item name="android:layout_marginBottom">16.0dip</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="CardsViewShort" parent="@style/CardsViewShortBase" />
+    <style name="CardsViewShortBase">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">120.0dip</item>
+        <item name="android:foreground">?selectableItemBackground</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+        <item name="actionMenuTextColor">@android:color/white</item>
+        <item name="alertDialogTheme">@style/Theme.AppCompat.Light.Dialog.Alert</item>
+    </style>
+    <style name="AppThemeNew" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="android:windowDisablePreview">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+        <item name="actionMenuTextColor">@android:color/white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!--  It should be true otherwise action mode will not overlay toolbar -->
+        <item name="windowActionModeOverlay">true</item>
+
+        <!--  For Custom Action Mode Background Color/Drawable -->
+        <item name="actionModeBackground">@color/colorAccent</item>
+
+    </style>
+</resources>

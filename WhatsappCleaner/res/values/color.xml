@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="main_layout_color">#08ADFA</color>
+    <color name="cpb_grey">#ffdedede</color>
+    <color name="cpb_blue">#ff0099cc</color>
+    <color name="cpb_blue_dark">#ff00719b</color>
+    <color name="cpb_red">#ffff4444</color>
+    <color name="cpb_red_dark">#ffcd3a3a</color>
+    <color name="cpb_green">#ff99cc00</color>
+    <color name="cpb_green_dark">#ff6d9b00</color>
+    <color name="cpb_white">@android:color/white</color>
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="fuchsia">#FF00FF</color>
+    <color name="red">#FF0000</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="gray">#848484</color>
+    <color name="olive">#808000</color>
+    <color name="purple">#800080</color>
+    <color name="maroon">#800000</color>
+    <color name="aqua">#00FFFF</color>
+    <color name="lime">#00FF00</color>
+    <color name="teal">#008080</color>
+    <color name="green">#008000</color>
+    <color name="blue">#0000FF</color>
+    <color name="navy">#000080</color>
+    <color name="black">#000000</color>
+    <color name="waterblue">#0099FF</color>
+
+    <color name="app_light_color">#327234</color>
+    
+    <color name="app_color">#4cb050</color>
+<color name="textview_gray_color">#555454</color>
+    <color name="transparent">#80FFFFFF</color>
+<!--     <color name="app_light_color">#FF9900</color> -->
+<!--     <color name="app_color">#CC9966</color> -->
+    <color name="textcolor">#777777</color>
+    <color name="button_color">#B6422B</color>
+    <color name="button_select_color">#923322</color>
+    <color name="layout_color">#191919</color>
+    <color name="hint_color">#595E59</color>
+    <color name="privacy_border_color">#598E84</color>
+    <color name="transparent_black">#80000000</color>
+    <color name="client_sign_up_color">#2C2C2C</color>
+    <color name="new_gray_light">#F1F1F1</color>
+     <color name="edittext_without_border">#00000000</color>
+    <color name="main_screen_color">#9A2A1E</color>
+<color name="inside_light_gray">#FAFAFA</color>
+<color name="add_cart_gray">#c6c6c6</color>
+<color name="dark_pink">#8c0a4d</color>
+</resources>

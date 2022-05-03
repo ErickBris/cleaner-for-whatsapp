@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Whatsapp Cleaner</string>
+    <string name="images">Images</string>
+    <string name="explore">EXPLORE</string>
+    <string name="whatsapp_audio">Audio</string>
+    <string name="whatsapp_video">Video</string>
+    <string name="profile">Profile Picture</string>
+    <string name="whatsapp_wallpaper">Wallpaper</string>
+    <string name="whatsapp_voice">Voice Notes</string>
+    <string name="whatsapp_video_notes">Video Notes</string>
+    <string name="whatsapp_voice_notes">Voice Notes</string>
+    <string name="doc">Documents</string>
+    <string name="delete">DELETE</string>
+    <string name="refresh_us">Refresh</string>
+    <string name="whatsapp_calls">Calls</string>
+    <string name="whatsapp_database">Databases</string>
+    <string name="menu_item_delete">Delete</string>
+    <string name="developer_email">techx1406@gmail.com</string>
+    <string name="banner_home_footer">ca-app-pub-7838930253310927/4343053783</string>
+    <string name="interstitial_full_screen">ca-app-pub-7838930253310927/8142697999</string>
+</resources>

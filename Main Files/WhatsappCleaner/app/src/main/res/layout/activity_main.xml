@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_below="@+id/toolbar"
+        android:layout_width="fill_parent"
+        android:padding="5dp"
+        android:layout_marginBottom="50dp"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/android_image"
+                style="@style/CardsViewLarge"
+                card_view:cardBackgroundColor="#ffe91e63">
+
+                <ImageView
+                    style="@style/CardsViewImage"
+                    android:src="@drawable/ic_images_48dp" />
+
+                <TextView
+                    style="@style/CardsViewTitleText"
+                    android:text="@string/images"
+                    android:textColor="#ffffffff" />
+
+                <TextView
+                    android:id="@+id/whatsapp_images_sub_title_text"
+                    style="@style/CardsViewSubTitleText"
+                    android:textColor="#ffffffff" />
+
+                <TextView
+                    style="@style/CardsViewButton"
+                    android:text="@string/explore"
+                    android:textColor="#ffffffff" />
+            </android.support.v7.widget.CardView>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/whatsapp_audio"
+                    style="@style/CardsViewShort"
+                    android:layout_marginEnd="2dp"
+                    android:layout_marginRight="2dp"
+                    card_view:cardBackgroundColor="#ff8bc34a">
+
+                    <ImageView
+                        style="@style/CardsViewImage"
+                        android:src="@drawable/ic_audio_48dp" />
+
+                    <TextView
+                        style="@style/CardsViewTitleText"
+                        android:text="@string/whatsapp_audio"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/whatsapp_audio_sub_title_text"
+                        style="@style/CardsViewSubTitleText"
+                        android:textColor="#ff000000" />
+
+                    <TextView
+                        style="@style/CardsViewButton"
+                        android:text="@string/explore"
+                        android:textColor="#ff000000" />
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/whatsapp_video"
+                    style="@style/CardsViewShort"
+                    card_view:cardBackgroundColor="#ff009688">
+
+                    <ImageView
+                        style="@style/CardsViewImage"
+                        android:src="@drawable/ic_video_48dp" />
+
+                    <TextView
+                        style="@style/CardsViewTitleText"
+                        android:text="@string/whatsapp_video"
+                        android:textColor="#ffffffff" />
+
+                    <TextView
+                        android:id="@+id/whatsapp_video_sub_title_text"
+                        style="@style/CardsViewSubTitleText"
+                        android:textColor="#ffffffff" />
+
+                    <TextView
+                        style="@style/CardsViewButton"
+                        android:text="@string/explore"
+                        android:textColor="#ffffffff" />
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/content_2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/android_profile"
+                    style="@style/CardsViewLarge"
+                    card_view:cardBackgroundColor="#ff607d8b">
+
+                    <ImageView
+                        style="@style/CardsViewImage"
+                        android:src="@drawable/ic_profile_48dp" />
+
+                    <TextView
+                        style="@style/CardsViewTitleText"
+                        android:text="@string/profile"
+                        android:textColor="#ffffffff" />
+
+                    <TextView
+                        android:id="@+id/whatsapp_dp_sub_title_text"
+                        style="@style/CardsViewSubTitleText"
+                        android:textColor="#ffffffff" />
+
+                    <TextView
+                        style="@style/CardsViewButton"
+                        android:text="@string/explore"
+                        android:textColor="#ffffffff" />
+                </android.support.v7.widget.CardView>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/whatsapp_wallpaper"
+                        style="@style/CardsViewShort"
+                        android:layout_marginEnd="2dp"
+                        android:layout_marginRight="2dp"
+                        card_view:cardBackgroundColor="#ffffeb3b">
+
+                        <ImageView
+                            style="@style/CardsViewImage"
+                            android:src="@drawable/ic_wallpaper_48dp" />
+
+                        <TextView
+                            style="@style/CardsViewTitleText"
+                            android:text="@string/whatsapp_wallpaper"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:id="@+id/whatsapp_wallpaper_sub_title_text"
+                            style="@style/CardsViewSubTitleText"
+                            android:textColor="#ff000000" />
+
+                        <TextView
+                            style="@style/CardsViewButton"
+                            android:text="@string/delete"
+                            android:textColor="#ff000000" />
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/whatsapp_voice_notes"
+                        style="@style/CardsViewShort"
+                        card_view:cardBackgroundColor="#ffff5722">
+
+                        <ImageView
+                            style="@style/CardsViewImage"
+                            android:src="@drawable/ic_voice_48dp" />
+
+                        <TextView
+                            style="@style/CardsViewTitleText"
+                            android:text="@string/whatsapp_voice_notes"
+                            android:textColor="#ffffffff" />
+
+                        <TextView
+                            android:id="@+id/whatsapp_voice_sub_title_text"
+                            style="@style/CardsViewSubTitleText"
+                            android:textColor="#ffffffff" />
+
+                        <TextView
+                            style="@style/CardsViewButton"
+                            android:text="@string/delete"
+                            android:textColor="#ffffffff" />
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/android_documents"
+                    style="@style/CardsViewLarge"
+                    android:layout_marginTop="5dp"
+                    card_view:cardBackgroundColor="#ff4caf50">
+
+                    <ImageView
+                        style="@style/CardsViewImage"
+                        android:src="@drawable/ic_documents_48dp" />
+
+                    <TextView
+                        style="@style/CardsViewTitleText"
+                        android:text="@string/doc"
+                        android:textColor="#ffffffff" />
+
+                    <TextView
+                        android:id="@+id/whatsapp_documents_sub_title_text"
+                        style="@style/CardsViewSubTitleText"
+                        android:textColor="#ffffffff" />
+
+                    <TextView
+                        style="@style/CardsViewButton"
+                        android:text="@string/delete"
+                        android:textColor="#ffffffff" />
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/whatsapp_databases"
+                    style="@style/CardsViewLarge"
+                    android:layout_marginTop="5dp"
+                    card_view:cardBackgroundColor="#ff795548">
+
+                    <ImageView
+                        style="@style/CardsViewImage"
+                        android:src="@drawable/ic_databases_48dp" />
+
+                    <TextView
+                        style="@style/CardsViewTitleText"
+                        android:text="@string/whatsapp_database"
+                        android:textColor="#ffffffff" />
+
+                    <TextView
+                        android:id="@+id/whatsapp_databases_sub_title_text"
+                        style="@style/CardsViewSubTitleText"
+                        android:textColor="#ffffffff" />
+
+                    <TextView
+                        style="@style/CardsViewButton"
+                        android:text="@string/delete"
+                        android:textColor="#ffffffff" />
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/banner_home_footer">
+    </com.google.android.gms.ads.AdView>
+    </RelativeLayout>

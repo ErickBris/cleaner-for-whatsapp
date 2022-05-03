@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="column_width_category">122dp</dimen>
+    <dimen name="image_height">390dp</dimen>
+    <dimen name="play_height">100dp</dimen>
+    <dimen name="intro_image_height">420dp</dimen>
+    <dimen name="footer_icon_height">57dp</dimen>
+    <dimen name="image_top_margin">33dp</dimen>
+    <dimen name="footer_height">70dp</dimen>
+    <dimen name="footer_image_padding">0dp</dimen>
+
+</resources>

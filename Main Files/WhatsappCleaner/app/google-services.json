@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "405470154872",
+    "firebase_url": "https://codecanyon-49eeb.firebaseio.com",
+    "project_id": "codecanyon-49eeb",
+    "storage_bucket": "codecanyon-49eeb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405470154872:android:e40e65bf93b5902e",
+        "android_client_info": {
+          "package_name": "com.cleaner.whatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "405470154872-63jdlk8n6q153qjcegd2p51eh35ml03r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwSiFjRoQwzMV8eHMdG2jiP-2jOXjVZn0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

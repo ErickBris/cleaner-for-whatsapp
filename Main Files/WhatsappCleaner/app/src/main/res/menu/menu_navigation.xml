@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="Home"
+            android:icon="@drawable/ic_home_black_24dp"/>
+        <item
+            android:id="@+id/rate"
+            android:title="Rate us"
+            android:icon="@drawable/ic_thumb_up_black_24dp"/>
+        <item
+            android:id="@+id/share"
+            android:title="Recommend to Friends"
+            android:icon="@drawable/ic_share_white_24dp"/>
+        <item
+            android:id="@+id/logout"
+            android:title="Exit"
+            android:icon="@drawable/ic_backspace_black_24dp"/>
+    </group>
+</menu>

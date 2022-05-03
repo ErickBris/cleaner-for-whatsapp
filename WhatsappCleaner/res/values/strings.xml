@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Whatsapp cleaner</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="banner">BANNER</string>
+    <string name="ad_id">ca-app-pub-2865140239305097/7621619561</string>
+    <string name="irres_id">ca-app-pub-2865140239305097/6144886362</string>
+
+</resources>
